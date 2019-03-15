@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1F178E223947FC000C8981 /* GDCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F178D223947FC000C8981 /* GDCheckBox.swift */; };
+		9B3C83CC223ADEFB00ECE7CF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C83CB223ADEFB00ECE7CF /* CoreDataManager.swift */; };
+		9B45753B2234FBCF00C27F03 /* GDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45753A2234FBCF00C27F03 /* GDButton.swift */; };
+		9B45753D22350D0300C27F03 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45753C22350D0300C27F03 /* ListController.swift */; };
+		9B45753F223511B300C27F03 /* GDHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45753E223511B300C27F03 /* GDHeaderView.swift */; };
+		9B4575432235425800C27F03 /* OptionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4575422235425800C27F03 /* OptionSet.swift */; };
+		9B7AD36E2235B03900E765A7 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AD36D2235B03900E765A7 /* Protocol.swift */; };
+		9B7AD3702235B69C00E765A7 /* GDNewItemPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AD36F2235B69C00E765A7 /* GDNewItemPopUp.swift */; };
+		9B7AD3722235C16300E765A7 /* GDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AD3712235C16300E765A7 /* GDTextField.swift */; };
+		9BAF0E9F2231AC9E00413F78 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAF0E9E2231AC9E00413F78 /* Extension.swift */; };
+		9BAF0EA22231C3D000413F78 /* GDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAF0EA12231C3D000413F78 /* GDLabel.swift */; };
+		9BD8270A22380C54000646F6 /* GDTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8270922380C54000646F6 /* GDTableView.swift */; };
+		9BD8270C223843B9000646F6 /* GDListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8270B223843B9000646F6 /* GDListCell.swift */; };
+		9BD8270F223847F9000646F6 /* toDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8270E223847F9000646F6 /* toDo.swift */; };
 		9BE689882231265A00138442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE689872231265A00138442 /* AppDelegate.swift */; };
-		9BE6898A2231265A00138442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE689892231265A00138442 /* ViewController.swift */; };
-		9BE6898D2231265A00138442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE6898B2231265A00138442 /* Main.storyboard */; };
+		9BE6898A2231265A00138442 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE689892231265A00138442 /* WelcomeController.swift */; };
 		9BE689902231265A00138442 /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6898E2231265A00138442 /* Todo.xcdatamodeld */; };
 		9BE689922231265B00138442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE689912231265B00138442 /* Assets.xcassets */; };
 		9BE689952231265B00138442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE689932231265B00138442 /* LaunchScreen.storyboard */; };
+		9BE6899D2231355D00138442 /* GDGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6899C2231355D00138442 /* GDGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B1F178D223947FC000C8981 /* GDCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDCheckBox.swift; sourceTree = "<group>"; };
+		9B3C83CB223ADEFB00ECE7CF /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		9B45753A2234FBCF00C27F03 /* GDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDButton.swift; sourceTree = "<group>"; };
+		9B45753C22350D0300C27F03 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		9B45753E223511B300C27F03 /* GDHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDHeaderView.swift; sourceTree = "<group>"; };
+		9B4575422235425800C27F03 /* OptionSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSet.swift; sourceTree = "<group>"; };
+		9B7AD36D2235B03900E765A7 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		9B7AD36F2235B69C00E765A7 /* GDNewItemPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDNewItemPopUp.swift; sourceTree = "<group>"; };
+		9B7AD3712235C16300E765A7 /* GDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDTextField.swift; sourceTree = "<group>"; };
+		9BAF0E9E2231AC9E00413F78 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9BAF0EA12231C3D000413F78 /* GDLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDLabel.swift; sourceTree = "<group>"; };
+		9BAF0EAA2231CAE900413F78 /* Raleway-v4020-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-Regular.otf"; sourceTree = "<group>"; };
+		9BAF0EAB2231CAEA00413F78 /* Raleway-v4020-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-SemiBold.otf"; sourceTree = "<group>"; };
+		9BD8270922380C54000646F6 /* GDTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDTableView.swift; sourceTree = "<group>"; };
+		9BD8270B223843B9000646F6 /* GDListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDListCell.swift; sourceTree = "<group>"; };
+		9BD8270E223847F9000646F6 /* toDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDo.swift; sourceTree = "<group>"; };
 		9BE689842231265A00138442 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE689872231265A00138442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BE689892231265A00138442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9BE6898C2231265A00138442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE689892231265A00138442 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		9BE6898F2231265A00138442 /* Todo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todo.xcdatamodel; sourceTree = "<group>"; };
 		9BE689912231265B00138442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE689942231265B00138442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BE689962231265B00138442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE6899C2231355D00138442 /* GDGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +67,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B4575412235162C00C27F03 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BE689892231265A00138442 /* WelcomeController.swift */,
+				9B45753C22350D0300C27F03 /* ListController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9BAF0E9D2231AC8E00413F78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9BAF0E9E2231AC9E00413F78 /* Extension.swift */,
+				9B4575422235425800C27F03 /* OptionSet.swift */,
+				9B7AD36D2235B03900E765A7 /* Protocol.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9BAF0EA02231C3AA00413F78 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				9BE6899C2231355D00138442 /* GDGradient.swift */,
+				9BAF0EA12231C3D000413F78 /* GDLabel.swift */,
+				9B45753A2234FBCF00C27F03 /* GDButton.swift */,
+				9B45753E223511B300C27F03 /* GDHeaderView.swift */,
+				9B7AD36F2235B69C00E765A7 /* GDNewItemPopUp.swift */,
+				9B7AD3712235C16300E765A7 /* GDTextField.swift */,
+				9BD8270922380C54000646F6 /* GDTableView.swift */,
+				9BD8270B223843B9000646F6 /* GDListCell.swift */,
+				9B1F178D223947FC000C8981 /* GDCheckBox.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		9BAF0EA32231C56600413F78 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9BAF0EAA2231CAE900413F78 /* Raleway-v4020-Regular.otf */,
+				9BAF0EAB2231CAEA00413F78 /* Raleway-v4020-SemiBold.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		9BD8270D223847D7000646F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8270E223847F9000646F6 /* toDo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9BE6897B2231265A00138442 = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +139,12 @@
 			isa = PBXGroup;
 			children = (
 				9BE689872231265A00138442 /* AppDelegate.swift */,
-				9BE689892231265A00138442 /* ViewController.swift */,
-				9BE6898B2231265A00138442 /* Main.storyboard */,
+				9B3C83CB223ADEFB00ECE7CF /* CoreDataManager.swift */,
+				9BD8270D223847D7000646F6 /* Model */,
+				9BAF0EA32231C56600413F78 /* fonts */,
+				9BAF0E9D2231AC8E00413F78 /* Extensions */,
+				9BAF0EA02231C3AA00413F78 /* Custom */,
+				9B4575412235162C00C27F03 /* Controllers */,
 				9BE689912231265B00138442 /* Assets.xcassets */,
 				9BE689932231265B00138442 /* LaunchScreen.storyboard */,
 				9BE689962231265B00138442 /* Info.plist */,
@@ -127,7 +213,6 @@
 			files = (
 				9BE689952231265B00138442 /* LaunchScreen.storyboard in Resources */,
 				9BE689922231265B00138442 /* Assets.xcassets in Resources */,
-				9BE6898D2231265A00138442 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +223,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE6898A2231265A00138442 /* ViewController.swift in Sources */,
+				9BD8270C223843B9000646F6 /* GDListCell.swift in Sources */,
+				9BE6899D2231355D00138442 /* GDGradient.swift in Sources */,
+				9B45753B2234FBCF00C27F03 /* GDButton.swift in Sources */,
+				9B1F178E223947FC000C8981 /* GDCheckBox.swift in Sources */,
+				9B7AD3702235B69C00E765A7 /* GDNewItemPopUp.swift in Sources */,
+				9BE6898A2231265A00138442 /* WelcomeController.swift in Sources */,
+				9B3C83CC223ADEFB00ECE7CF /* CoreDataManager.swift in Sources */,
+				9B4575432235425800C27F03 /* OptionSet.swift in Sources */,
 				9BE689902231265A00138442 /* Todo.xcdatamodeld in Sources */,
+				9B7AD3722235C16300E765A7 /* GDTextField.swift in Sources */,
+				9BAF0EA22231C3D000413F78 /* GDLabel.swift in Sources */,
+				9BD8270A22380C54000646F6 /* GDTableView.swift in Sources */,
+				9B7AD36E2235B03900E765A7 /* Protocol.swift in Sources */,
+				9BD8270F223847F9000646F6 /* toDo.swift in Sources */,
+				9BAF0E9F2231AC9E00413F78 /* Extension.swift in Sources */,
+				9B45753F223511B300C27F03 /* GDHeaderView.swift in Sources */,
 				9BE689882231265A00138442 /* AppDelegate.swift in Sources */,
+				9B45753D22350D0300C27F03 /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9BE6898B2231265A00138442 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BE6898C2231265A00138442 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9BE689932231265B00138442 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
